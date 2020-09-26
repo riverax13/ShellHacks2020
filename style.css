@@ -7,14 +7,14 @@
 
 .navbarItem {
     background-color: teal;
-    width: 100px;
+    width: 150px;
     height: inherit;
-    float: left;
+    float: right;
 }
 
 .navbarText {
     text-decoration: none;
-    color: inherit;
+    color: white;
 }
 
 .navbarSelected {

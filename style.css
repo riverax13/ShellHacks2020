@@ -1,3 +1,9 @@
+body{
+    
+    color: black;
+    background-image: linear-gradient(to bottom right, #ff000000, #E9AFA3);
+}
+
 .navbar {
     background-color: lightblue;
     height: 50px;
@@ -7,25 +13,20 @@
 
 .navbarItem {
     background-color: teal;
-    width: 100px;
+    width: 150px;
     height: inherit;
-    float: left;
+    float: right;
 }
 
 .navbarText {
     text-decoration: none;
-    color: inherit;
+    color: white;
 }
 
 .navbarSelected {
     border: none;
     height: 50px;
     background: lightblue;
-    shadow
-}
-
-.body {
-    color: teal; 
 }
 
 .main {
@@ -127,3 +128,22 @@
 .active, .dot:hover {
     background-color: #717171;
 }
+
+.fireInfo {
+    width: 100%;
+    height: 700px;
+}
+
+.application {
+   width: 50%;
+   height: 600px; 
+   float: left;  
+}
+
+.pictures {
+    Background-color: linear-gradient(to right, #ff000000, #E9AFA3);
+    width: 50%;
+    height: 500px;
+    float: right;
+}
+

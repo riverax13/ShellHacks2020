@@ -1,16 +1,69 @@
 <!DOCTYPE html>
 <head>
-    <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div>
-        <div class = "navbar">
-            <a class = "navbarItem" href="Home.html">Home</a>
-            <a class = "navbarItem" href="ReportAFire.html">Report A Fire</a>
-            <a class = "navbarItem" href="HowToHelp.html">How To Help</a>
-            <a class = "navbarItem" href="GetHelp.html">Get Help</a>
-            <a class = "navbarItem" href="Statistics.html">Statistics</a>
+    <div class = "navbar">  
+        <div class = "navbarItem">
+            <a class = "navbarText" href="Statistics.html">Statistics</a>
         </div>
-    </div> 
+        <div class = "navbarItem">
+            <a class = "navbarText" href="GetHelp.html">Get Help</a>
+        </div>
+        <div class = "navbarItem">
+            <a class = "navbarText" href="HowToHelp.html">How To Help</a>
+        </div>
+        <div class = "navbarItem">
+            <a class = "navbarText" href="ReportAFire.html">Report A Fire</a>
+        </div> 
+        <div class = "navbarItem">
+            <a class = "navbarText" href="Home.html">Home</a>
+        </div>
+    </div>
+
+    <div class="fireInfo">
+        <div class="application">
+            <div>
+                <h1>Report a Fire</h1>
+
+               <h4>Please fill out this information to the best of your ability on any fire found in California. If you have been affected by this fire, 
+                please click our "Get Help" tab to see different resources that are available for you.  
+                Thank you for taking the time to fill this and keeping our website as updated as possible! </h4>
+            </div>
+
+            <p>What city(s) is the fire located?</p>
+            <input type="text">
+
+            <p>When did you discover this fire?</p>
+            <input type="date">
+
+            <p>Did you inform the proper authorities?</p>
+            <input type="radio"id="Yes" name="Yes" value="Yes">
+            <label for="Yes">Yes</label><br>
+            <input type="radio"id="No" name="No" value="No">
+            <label for="No">No</label><br>
+
+            <p>What time was this at?</p>
+            <input type="time">
+
+            <p>Is there any other information that you would like to inform us about?</p>
+            <input type="text">
+
+            <br>
+            <br>
+            <br>
+
+            <input type="submit" value="Submit">
+        </div> 
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="pictures">
+
+              <img src="Wildfire.png" alt="Girl in a jacket" style="width:704px;height:500px;">
+
+        </div>
+    </div>
 </body>

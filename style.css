@@ -4,15 +4,21 @@ body{
     background-image: linear-gradient(to bottom right, #ff000000, #E9AFA3);
 }
 
+.howhelp {
+    height: 100%;
+    width: 100%;
+
+}
+
 .navbar {
-    background-color: lightblue;
+    background-color: #A22522;
     height: 50px;
     width: 100%;
     text-align: center;
+    padding: 
 }
 
 .navbarItem {
-    background-color: teal;
     width: 150px;
     height: inherit;
     float: right;
@@ -30,7 +36,6 @@ body{
 }
 
 .main {
-    background-color: #A22522;
     color: #FFFFFF;
 }
 

@@ -1,0 +1,29 @@
+.navbar {
+    background-color: lightblue;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+.navbarItem {
+    background-color: teal;
+    width: 150px;
+    height: inherit;
+    float: right;
+}
+
+.navbarText {
+    text-decoration: none;
+    color: white;
+}
+
+.navbarSelected {
+    border: none;
+    height: 50px;
+    background: lightblue;
+    shadow
+}
+
+.body {
+    color: teal; 
+}

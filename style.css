@@ -1,12 +1,11 @@
 .navbar {
-    background-color: lightblue;
+    background-color: #A22522;
     height: 50px;
     width: 100%;
     text-align: center;
 }
 
 .navbarItem {
-    background-color: teal;
     width: 150px;
     height: inherit;
     float: right;
@@ -21,9 +20,5 @@
     border: none;
     height: 50px;
     background: lightblue;
-    shadow
-}
 
-.body {
-    color: teal; 
 }

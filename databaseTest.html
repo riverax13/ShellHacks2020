@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<head>
+    <?php
+    $servername = "MySQL80";
+    $username = "root";
+    $password = "DIEGO@ksa931";
+
+    // Create connection
+    $conn = new mysqli($servername, $username, $password);
+
+    // Check connection
+    if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+    }
+    echo "Connected successfully";
+    ?>
+</head>

@@ -1,5 +1,4 @@
 body{
-    
     color: black;
     background-image: linear-gradient(to bottom right, #ff000000, #E9AFA3);
 }
@@ -29,8 +28,7 @@ body{
 }
 
 .main {
-    background-color: #A22522;
-    color: #FFFFFF;
+    color: black;
 }
 
 * {box-sizing:border-box}
@@ -146,3 +144,6 @@ body{
     float: right;
 }
 
+.mapStyle {
+    color: inherit   
+}

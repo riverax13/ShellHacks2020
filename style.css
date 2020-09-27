@@ -1,13 +1,69 @@
 body{
-    
     color: black;
     background-image: linear-gradient(to bottom right, #ff000000, #E9AFA3);
+    font-family: Avenir;
+
 }
 
 .howhelp {
     height: 100%;
     width: 100%;
 
+}
+
+.jessdiv {
+    display: flex;
+
+}
+
+.jesspg {
+    padding-left: 50px;
+    justify-content: inline;
+}
+
+.jessdiv2 {
+    display: flex;
+}
+
+.jesspg2 {
+    padding-left: 50px;
+    justify-content: inline;
+}
+
+.jessdiv3 {
+    display: flex;
+}
+
+.jesspg3 {
+    padding-left: 50px;
+    justify-content: inline;
+}
+
+.jessdiv4 {
+    display: flex;
+}
+
+.jesspg4 {
+    padding-left: 50px;
+    justify-content: inline;
+}
+
+.jessdiv5 {
+    display: flex;
+}
+
+.jesspg5 {
+    padding-left: 50px;
+    justify-content: inline;
+}
+
+.jessdiv6 {
+    display: flex;
+}
+
+.jesspg6 {
+    padding-left: 50px;
+    justify-content: inline;
 }
 
 .navbar {
@@ -31,7 +87,7 @@ body{
 .navbarText {
     text-decoration: none;
     color: white;
-    font-family: Times New Roman;
+    font-family: Avenir;
     font-size: 100%;
     text-align: center;
 
@@ -41,6 +97,42 @@ body{
     border: none;
     height: 50px;
     background: lightblue;
+}
+
+.footer {
+    background-color: #A22522;
+    height: 50px;
+    width: 101.5%;
+    text-align: center;
+    margin-left: -10px;
+    margin-bottom: -8px;
+}
+
+.footerItem {
+    width: 33%;
+    height: inherit;
+    float: right;
+}
+
+.footerText {
+    text-decoration: none;
+    color: white;
+    font-family: Avenir;
+    font-size: 100%;
+    text-align: center;
+
+}
+
+.map {
+    padding:200px;
+    position: relative;
+    width: 100%;
+}
+
+.map2 {
+    padding:200px;
+    position: relative;
+    width: 100%;
 }
 
 .main {
@@ -54,6 +146,7 @@ body{
     max-width: 1000px;
     position: relative;
     margin: auto;
+    text-align: center;
 }
 
 /* Images hidden by default */

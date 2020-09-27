@@ -13,13 +13,17 @@ body{
 .navbar {
     background-color: #A22522;
     height: 50px;
-    width: 100%;
+    width: 101.5%;
     text-align: center;
-    padding: 
+    margin-left: -10px;
+    margin-top: -8px;
 }
 
+.navLogo {
+    float: left;
+}
 .navbarItem {
-    width: 150px;
+    width: 10%;
     height: inherit;
     float: right;
 }
@@ -27,6 +31,10 @@ body{
 .navbarText {
     text-decoration: none;
     color: white;
+    font-family: Times New Roman;
+    font-size: 100%;
+    text-align: center;
+
 }
 
 .navbarSelected {
@@ -36,7 +44,7 @@ body{
 }
 
 .main {
-    color: #FFFFFF;
+    color: black;
 }
 
 * {box-sizing:border-box}
